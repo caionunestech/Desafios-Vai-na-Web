@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+body {
+  display: flex;
+}
+
+main {
+  width: 35vw;
+  height: 86vh;
+  text-align: center;
+}
+
+figure {
+  height: 20vh; 
+}
+
+p {
+  height: 3vh;
+}
+
+a {
+  text-decoration: none;
+  color: gainsboro;
+  font-size: 13px;
+} 
+
+.letterDetail {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.riotLogoSize {
+  width: 10vw;
+  margin-top: 40px; /*MONITORIA*/
+}
+
+.dominantImage {
+  width: 80vw;
+}
+
+.div_loginInput {
+  height: 18vh;
+}
+
+.loginInput {
+  height: 6vh;
+  width: 15vw;
+  border-radius: 4px;
+  margin-top: 10px; /*MONITORIA*/
+  background-color: gainsboro;
+  border: none;
+}
+
+.div_loginSocialMedia {
+  height: 8vh;
+  width: 15vw;
+  display: flex;
+  margin-left: 38px; /*MONITORIA*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loginSocialMedia {
+  width: 4vw;
+  height: 4vh;
+  border-radius: 3px;
+  border: none;
+}
+
+.facebook {
+  background-color: blue;
+}
+
+.google {
+  background-color: brown;
+}
+
+.apple {
+  background-color: black;
+}
+
+.keepLogin {
+  text-align: center;
+  width: 13.5vw;
+  height: 15vh;
+}
+
+.loginButton {
+  height: 5.2vh;
+  width: 3vw;
+  border-radius: 8px;
+  background-color: rosybrown;
+  color: white;
+  border: none;
+}
+
+.forgetInformation {
+  height: 7vh;
+}
+
+#name::placeholder {
+  font-size: 10px;
+}
+
+#password::placeholder {
+  font-size: 10px;
+}
+/* MONITORIA -> Colocar as imagens nos botões, posicionar o placeholder, retirar os margins e deixar o botão e as conexões via redes sociais clicáveis /*

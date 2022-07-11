@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <main>
+      <figure>
+        <img class="riotLogoSize" src="./images/riot-logo.png">
+      </figure>
+      <div>
+        <form>
+          <p class="letterDetail">Log In</p>
+          <div class="div_loginInput">
+            <label for="name"></label>
+            <input class="loginInput" placeholder="Nickname" type="text" id="name" name="name">
+            <label for="password"></label>
+            <input class="loginInput" placeholder = "Password" type="password" id="password" name="password">  
+          </div>
+
+          <div class="div_loginSocialMedia">
+            <input class="loginSocialMedia facebook" type="submit" value="Facebook">
+            <input class = "loginSocialMedia google" type="submit" value="Google">
+            <input class = "loginSocialMedia apple" type="submit" value="Apple">
+          </div>
+        </form>
+      </div>
+      <div class="keepLogin">
+        <input type="radio" id="keepLogin">
+        <label class="letterDetail" for="keepLogin">Keep me logged in</label>
+      </div>
+      <div class="forgetInformation">
+        <button class="loginButton">>></button>
+      </div>
+        <p><a href="#">Can't log in?</a></p>
+        <p><a href="#">Sign In</a></p>   
+    </main>
+
+    <figure>
+      <img class="dominantImage" src="./images/leagueoflegends.png">
+    </figure>
+    <script src="script.js"></script>
+  </body>
+</html>
